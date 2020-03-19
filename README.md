@@ -5,4 +5,4 @@ The image and the name of the bird is linked to an individual site with informat
 ![BaldEagleSiteScreenshot](https://user-images.githubusercontent.com/62332972/77065520-c1e83480-69e1-11ea-8dea-32b07129252b.JPG)
 All the html documents have bookmarks that lead to two different articles. The first one contains all the flying birds, and the second contains the flightless ones:
 
-![Bookmarks](https://user-images.githubusercontent.com/62332972/77066023-aa5d7b80-69e2-11ea-96ff-cd07cc90e96f.JPG)
+![Bookmarks](https://user-images.githubusercontent.com/62332972/77066127-e0026480-69e2-11ea-97ad-97b8b6f1f4f0.JPG)
