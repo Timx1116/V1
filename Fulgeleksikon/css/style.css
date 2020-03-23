@@ -5,11 +5,13 @@ body
 
 h1
 {
+    text-decoration: underline overline double midnightblue;
     color: Midnightblue;
 }
 
 h2
 {
+    text-decoration: underline overline steelblue;
     margin-top: 52px;
     color: SteelBlue;
 }
