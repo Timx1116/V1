@@ -1,0 +1,25 @@
+body
+{
+    color: DarkSlateGrey;
+}
+
+h1
+{
+    color: Midnightblue;
+}
+
+h2
+{
+    color: SteelBlue;
+}
+
+img
+{
+    margin-right: 10px;
+}
+
+ul
+{
+    list-style-position: inside;
+}
+
