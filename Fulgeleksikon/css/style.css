@@ -13,13 +13,22 @@ h1
 {
     text-decoration: underline overline midnightblue;
     color: Midnightblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    font-variant: small-caps;
+    text-align: center;
 }
 
 h2
 {
     text-decoration: underline overline steelblue;
-    margin-top: 52px;
     color: SteelBlue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 img
@@ -35,4 +44,11 @@ ul
 li
 {
     background-color: RGB(223, 231, 242);
+    line-height: 1.8;
+}
+
+a
+{
+    text-decoration: none;
+    color: darkslategray;
 }
