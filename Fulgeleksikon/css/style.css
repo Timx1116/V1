@@ -14,12 +14,16 @@ header
     margin-left: 25%;
 }
 
+nav, main, footer
+{
+    width: 1000px;
+}
+
 nav
 {
     background-color: rgba(173, 192, 217, 1);
     font-variant: small-caps;
     font-size: 20px;
-    width: 1000px;
     margin-left: 25%;
     padding-left: 10px;
     border-radius: 25px;
@@ -28,7 +32,6 @@ nav
 main
 {
     margin-left: 25%;
-    width: 1000px;
 }
 
 h1, h2
@@ -103,7 +106,6 @@ footer
     background-color: rgba(173, 192, 217, 1);
     font-variant: small-caps;
     font-size: 20px;
-    width: 1000px;
     margin-left: 25%;
     margin-top: 25px;
     margin-bottom: 25px;
