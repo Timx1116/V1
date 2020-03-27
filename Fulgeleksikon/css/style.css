@@ -19,6 +19,18 @@ nav, main, footer
     width: 1000px;
 }
 
+nav, footer
+{
+    text-align: center;
+}
+
+nav a, footer a
+{
+color: whitesmoke;
+text-decoration: none;
+margin: 0 20px;
+}
+
 nav
 {
     background-color: rgba(173, 192, 217, 1);
@@ -53,12 +65,12 @@ h1
 
 h2
 {
-    text-decoration: underline overline steelblue;
     color: SteelBlue;
     font-weight: 600;
     font-size: 30px;
     text-transform: uppercase;
     text-align: left;
+    text-decoration: underline overline steelblue;
 }
 
 img
