@@ -19,7 +19,7 @@ header img
 {
     width: 1000px;
     height: auto;
-    border-radius: 0;
+    border-radius: 0px;
 }
 
 nav, footer
@@ -94,6 +94,7 @@ img
     background-color: rgba(255, 255, 255, 0.4);
     padding: 10px;
     margin-bottom: 15px;
+    border-radius: 15px 15px 15px 0px;
 }
 
 ul
