@@ -33,12 +33,24 @@ nav, footer
     border-radius: 25px;
 }
 
+nav a:visited, footer a:visited
+{
+    color: none;
+}
+
+nav a:hover, footer, a:hover
+{
+    color: steelblue;
+}
+
+
 nav a, footer a
 {
+    display: inline-block;
     color: gainsboro;
     text-decoration: none;
     margin: 0 65px;
-    padding: 0px 20px;
+    padding: 0px 25px;
 }
 
 nav
