@@ -5,20 +5,28 @@ body
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     line-height: 1.8;
-    width: 1000px;
+    width: 1050px;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 
 header img
 {
-    width: 1000px;
+    width: 1050px;
     height: auto;
 }
+
+
 
 nav, footer
 {
     text-align: center;
+    font-size: 24px;
     height: 50px;
+    line-height: 50px;
+    background-color: rgb(128, 72, 25);
+    text-transform: uppercase;
+    border-radius: 25px;
 }
 
 nav a, footer a
@@ -28,29 +36,23 @@ nav a, footer a
     margin: 0 100px;
 }
 
-nav
-{
-    background-color: rgba(173, 192, 217, 1);
-    font-variant: small-caps;
-    font-size: 20px;
-    border-radius: 25px;
-}
 
 h1, h2
 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 
 h1
 {
-    text-decoration: underline overline midnightblue;
-    color: Midnightblue;
-    font-weight: 800;
-    font-size: 36px;
-    font-variant: small-caps;
+    color: rgb(128, 72, 25);
+    text-decoration: underline overline rgb(128, 72, 25);
+    text-transform: uppercase;
     text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px silver;
 }
 
 h2
@@ -103,11 +105,5 @@ button
 
 footer
 {
-    line-height: 50px;
-    height: 50px;
-    background-color: rgba(173, 192, 217, 1);
-    font-variant: small-caps;
-    font-size: 20px;
     margin-top: 25px;
-    border-radius: 25px;
 }
