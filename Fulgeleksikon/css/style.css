@@ -14,6 +14,8 @@ header img
 {
     width: 1050px;
     height: auto;
+    border-style: none;
+    border-radius: 10px;
 }
 
 
@@ -69,7 +71,7 @@ img
 {
     margin-right: 10px;
     border-style: none;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 
