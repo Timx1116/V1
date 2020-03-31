@@ -22,6 +22,11 @@ header img
     border-radius: 0px;
 }
 
+header a img:hover
+{
+    opacity: 1;
+}
+
 nav, footer
 {
     text-align: center;
@@ -38,19 +43,19 @@ nav a:visited, footer a:visited
     color: none;
 }
 
-nav a:hover, footer, a:hover
+nav a:hover, footer a:hover
 {
-    color: steelblue;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 
 nav a, footer a
 {
-    display: inline-block;
     color: gainsboro;
     text-decoration: none;
     margin: 0 65px;
     padding: 0px 25px;
+    display: inline-block;
 }
 
 nav
@@ -85,12 +90,18 @@ h2
     text-align: left;
 }
 
+a img:hover
+{
+    opacity: 0.8;
+}
+
 img
 {
     margin-right: 10px;
     border-style: none;
     border-radius: 15px 0px;
 }
+
 
 .birdimg
 {
@@ -129,14 +140,9 @@ p
     margin-bottom: 15px;
 }
 
-button
+button a:hover
 {
-    margin-left: 45%;
-    width: 75px;
-    height: 25px;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 25px;
+    background-color: transparent;
 }
 
 footer
