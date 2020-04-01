@@ -10,14 +10,14 @@ body
     color: DarkSlateGrey;
     font-family: 'Roboto', sans-serif;
     line-height: 2;
-    width: 1000px;
+    width: 1050px;
     margin: auto;
     padding: 10px;
 }
 
 header img
 {
-    width: 1000px;
+    width: 100%;
     height: auto;
     border-radius: 0px;
 }
@@ -58,7 +58,7 @@ nav a, footer a
 {
     color: gainsboro;
     text-decoration: none;
-    margin: 0 65px;
+    margin: 0 70px;
     padding: 0px 15px;
 }
 
@@ -73,6 +73,11 @@ nav ul li ul
     position: absolute;
 }
 
+nav ul li ul a
+{
+    margin: 0;
+}
+
 nav ul li ul li
 {
     font-size: 13px;
@@ -81,13 +86,13 @@ nav ul li ul li
 nav ul li ul li, nav ul li:hover ul
 {
     display: block;    
-    display: block;
 }
 
 nav ul li:hover ul
 {
+    padding: 10px;
     background-color: rgba(128, 72, 25, 0.8);
-    width: 360px;
+    width: 220px;
     list-style: none;
     line-height: 1.8;
 }
@@ -101,8 +106,6 @@ nav.sticky
 nav
 {
     margin-top: 15px;
-    top: 0px;
-    width: 1000px; 
     z-index: 2;
 }
 
