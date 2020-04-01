@@ -36,6 +36,8 @@ nav, footer
     line-height: 50px;
     background-color: rgb(128, 72, 25);
     border-radius: 25px;
+    position: static;
+    z-index: 2;
 }
 
 nav a:visited, footer a:visited
@@ -140,6 +142,8 @@ img
     margin-right: 10px;
     border-style: none;
     border-radius: 15px 0px;
+    position: static;
+    z-index:1;
 }
 
 
