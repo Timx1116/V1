@@ -82,9 +82,18 @@ nav ul li:hover ul
     line-height: 1.8;
 }
 
+nav.sticky
+{
+    position: sticky;
+    top: 0;
+}
+
 nav
 {
     margin-top: 15px;
+    position: fixed;
+    top: 0px;
+    width: 1000px; 
 }
 
 h1, h2
