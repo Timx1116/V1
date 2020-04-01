@@ -50,23 +50,22 @@ nav li:hover, footer a:hover
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+nav a, nav ul li
+{
+    display: inline-block;
+}
+
 nav a, footer a
 {
     color: gainsboro;
     text-decoration: none;
     margin: 0 65px;
     padding: 0px 25px;
-    display: inline-block;
 }
 
 nav ul
 {
     list-style: none;
-}
-
-nav ul li
-{
-    display: inline-block;
 }
 
 nav ul li ul
