@@ -60,7 +60,7 @@ nav a, footer a
     color: gainsboro;
     text-decoration: none;
     margin: 0 65px;
-    padding: 0px 25px;
+    padding: 0px 15px;
 }
 
 nav ul
@@ -99,7 +99,6 @@ nav.sticky
 nav
 {
     margin-top: 15px;
-    position: fixed;
     top: 0px;
     width: 1000px; 
 }
