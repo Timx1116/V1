@@ -91,7 +91,7 @@ nav ul li ul li, nav ul li:hover ul
 nav ul li:hover ul
 {
     padding: 10px;
-    background-color: rgba(128, 72, 25, 0.8);
+    background-color: rgba(128, 72, 25, 0.9);
     width: auto;
     list-style: none;
     line-height: 1.8;
