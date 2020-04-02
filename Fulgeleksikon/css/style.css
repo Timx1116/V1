@@ -76,6 +76,7 @@ nav ul li ul
 nav ul li ul a
 {
     margin: 0;
+    display: block;
 }
 
 nav ul li ul li
@@ -90,9 +91,8 @@ nav ul li ul li, nav ul li:hover ul
 
 nav ul li:hover ul
 {
-    padding: 10px;
     background-color: rgba(128, 72, 25, 0.9);
-    width: auto;
+    width: 350px;
     list-style: none;
     line-height: 1.8;
 }
@@ -154,7 +154,6 @@ img
     position: static;
     z-index:1;
 }
-
 
 .birdimg
 {
