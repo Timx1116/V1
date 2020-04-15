@@ -128,9 +128,9 @@ nav
 
 main 
 {
-    background-color: rgba(244, 244, 244, 0.8);
+    background-color: rgba(240, 240, 240, 0.8);
     margin-top: 10px;
-    padding: 10px;
+    padding: 0px 10px 0px;
     border-radius: 15px;
 }
 
@@ -149,7 +149,6 @@ h1
     font-size: 50px;
     font-weight: 800;
     text-shadow: 2px -2px 2px silver;
-    margin-bottom: 15px;
 }
 
 a h2:hover
@@ -189,7 +188,7 @@ img
 .birdfacts
 {
     height: 220px;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     margin-bottom: 15px;
     border-radius: 15px 15px 15px 0px;
