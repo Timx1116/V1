@@ -102,6 +102,7 @@ nav ul li ul a
 {
     margin: 0;
     display: block;
+    padding-top: 10px;
 }
 
 nav ul li ul li
@@ -118,7 +119,7 @@ nav ul li ul li, nav ul li:hover ul
 nav ul li:hover ul
 {
     background-color: rgba(128, 72, 25, 0.9);
-    width: 360px;
+    width: 322px;
     list-style: none;
     line-height: 1.8;
 }
