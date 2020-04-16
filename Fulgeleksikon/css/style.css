@@ -107,6 +107,7 @@ nav ul li ul a
 nav ul li ul li
 {
     font-size: 20.5px;
+    text-align: center;
 }
 
 nav ul li ul li, nav ul li:hover ul
