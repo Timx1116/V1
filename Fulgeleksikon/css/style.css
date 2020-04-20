@@ -234,6 +234,7 @@ input, textarea
 {
     margin-right: 5px;
     padding: 0px 5px;
+    width: 200px;
 }
 
 .contact-us-message
