@@ -62,7 +62,7 @@ nav, footer
     line-height: 50px;
     background-color: rgb(128, 72, 25);
     border-radius: 25px;
-    position: static;
+    position: relative;
 }
 
 nav a:visited, footer a:visited
@@ -247,4 +247,13 @@ input, textarea
 footer
 {
     margin-top: 25px;
+}
+
+@media only screen and (max-width: 1000px)
+{
+    .gallery 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
