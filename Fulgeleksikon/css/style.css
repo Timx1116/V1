@@ -10,7 +10,8 @@ body
     color: DarkSlateGrey;
     font-family: 'Roboto', sans-serif;
     line-height: 2;
-    width: 1085px;
+    max-width: 1085px;
+    width: 85%;
     margin: auto;
     padding: 10px;
 }
