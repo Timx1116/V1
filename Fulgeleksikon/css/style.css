@@ -197,7 +197,7 @@ img
 
 .birdfacts
 {
-    height: 220px;
+    max-height: 220px;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px;
     margin-bottom: 15px;
@@ -255,5 +255,15 @@ footer
     {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .birdimg
+    {
+        float: none;
+    }
+    
+    .birdfacts
+    {
+        max-height: auto;
     }
 }
