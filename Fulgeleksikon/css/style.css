@@ -47,10 +47,14 @@ header a img:hover
 
 .container
 {
-    display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
+}
+
+.container, label
+{
+    display: flex;
 }
 
 nav, footer
@@ -173,7 +177,7 @@ h2
 {
     color: SteelBlue;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 a img:hover
@@ -226,11 +230,6 @@ p
     margin-bottom: 15px;
 }
 
-label
-{
-    display: flex;
-}
-
 input, textarea
 {
     margin-right: 5px;
@@ -249,11 +248,18 @@ footer
     margin-top: 25px;
 }
 
+@media only screen and (min-width: 1001px) and (max-width: 1400px)
+{
+    .gallery
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media only screen and (max-width: 1000px)
 {
     .gallery 
     {
-        display: grid;
         grid-template-columns: 1fr;
     }
 
@@ -266,4 +272,10 @@ footer
     {
         max-height: auto;
     }
+
+    a h2
+    {
+        font-size: auto;
+    }
 }
+
