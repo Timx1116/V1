@@ -268,9 +268,9 @@ footer
         float: none;
     }
     
-    .birdfacts
+    article .birdfacts
     {
-        max-height: auto;
+        max-height: 440px;
     }
 
     a h2
