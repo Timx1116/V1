@@ -134,6 +134,16 @@ nav ul li ul li:hover
 {
     background-color: rgba(255, 255, 255, 0.3);  
 }
+  
+  #page-nav label, #hamburger 
+  {
+    display: none;
+  }
+  
+  #page-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
 
 nav
 {
@@ -248,15 +258,56 @@ footer
     margin-top: 25px;
 }
 
-@media only screen and (min-width: 1001px) and (max-width: 1400px)
+@media only screen and (min-width: 861px) and (max-width: 1400px)
 {
     .gallery
     {
         grid-template-columns: 1fr 1fr;
     }
+
+    nav a, footer a
+    {
+        margin: 0;
+    }
+
+    nav ul li ul
+    {
+        position: relative;
+    }
+
+    #page-nav label 
+    {
+        display: inline-block;
+        color: #fff;
+        font-style: normal;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+ 
+    #page-nav ul li ul 
+    {
+        display: block;
+    }
+    
+    #page-nav ul li 
+    {
+        border-top: 1px solid #333;
+        background: rgb(128, 72, 25);
+    }
+
+    #page-nav ul 
+    {
+        display: none;
+    }
+    
+    #page-nav input:checked ~ ul 
+    {
+        display: grid;
+        grid-template-columns: 2fr;
+    }
 }
 
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 860px)
 {
     .gallery 
     {
@@ -276,6 +327,47 @@ footer
     a h2
     {
         font-size: auto;
+    }
+
+    nav a, footer a
+    {
+        margin: 0;
+    }
+
+    nav ul li ul
+    {
+        position: relative;
+    }
+
+    #page-nav label 
+    {
+        display: inline-block;
+        color: #fff;
+        font-style: normal;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+ 
+    #page-nav ul li ul 
+    {
+        display: block;
+    }
+    
+    #page-nav ul li 
+    {
+        border-top: 1px solid #333;
+        background: rgb(128, 72, 25);
+    }
+
+    #page-nav ul 
+    {
+        display: none;
+    }
+    
+    #page-nav input:checked ~ ul 
+    {
+        display: grid;
+        grid-template-columns: 2fr;
     }
 }
 
