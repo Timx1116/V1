@@ -265,6 +265,11 @@ footer
         grid-template-columns: 1fr 1fr;
     }
 
+    nav 
+    {
+        text-align: left;
+    }
+
     nav a, footer a
     {
         margin: 0;
@@ -273,6 +278,7 @@ footer
     nav ul li ul
     {
         position: relative;
+        margin: 5px;
     }
 
     #page-nav label 
@@ -280,19 +286,27 @@ footer
         display: inline-block;
         color: #fff;
         font-style: normal;
-        font-size: 20px;
+        font-size: 30px;
         padding-bottom: 10px;
+        margin-left: 50%;
     }
  
     #page-nav ul li ul 
     {
         display: block;
+        margin-left: 5px;
+    }
+
+    #page-nav ul li ul li
+    {
+        background: rgba(255, 255, 255, 0.1);
     }
     
     #page-nav ul li 
     {
         border-top: 1px solid #333;
         background: rgb(128, 72, 25);
+        width: auto;
     }
 
     #page-nav ul 
@@ -303,7 +317,8 @@ footer
     #page-nav input:checked ~ ul 
     {
         display: grid;
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
+        width: auto;
     }
 }
 
@@ -321,7 +336,7 @@ footer
     
     article .birdfacts
     {
-        max-height: 440px;
+        max-height: 100%;
     }
 
     a h2
@@ -344,13 +359,19 @@ footer
         display: inline-block;
         color: #fff;
         font-style: normal;
-        font-size: 20px;
+        font-size: 30px;
         padding-bottom: 10px;
     }
  
     #page-nav ul li ul 
     {
         display: block;
+        margin-left: 5px;
+    }
+
+    #page-nav ul li ul li
+    {
+        background: rgba(255, 255, 255, 0.1);
     }
     
     #page-nav ul li 
